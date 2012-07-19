@@ -1,0 +1,41 @@
+.comic {
+	width:160px;
+  margin:0 auto;
+}
+.panel {
+  width:160px;
+  background-size:100%;
+}
+
+#panel-1 {
+  height:168px;
+}
+#panel-2 {
+	height:168px;
+}
+#panel-3a {
+  width:111px;
+  height:73px;
+  float:left;
+  margin-left:-111px;
+  margin-top:40px;
+}
+#panel-3 {
+	height:174px;
+}
+#panel-4 {
+	height:179px;
+}
+#panel-4b {
+  width:92px;
+  height:41px;
+  float:left;
+  margin-left:160px;
+  margin-top:-41px;
+}
+#panel-5 {
+	height:175px;
+}
+#panel-6 {
+	height:166px;
+}
