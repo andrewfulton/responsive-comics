@@ -1,0 +1,56 @@
+.comic {
+	width:320px;
+	margin:0 auto;
+}
+.panel {
+	background-size:100%;
+  float: left;
+}
+
+#panel-1 {
+	width:160px;
+  height:168px;
+}
+#panel-2 {
+	width:160px;
+	height:168px;
+}
+
+#panel-3a {
+  width:320px;
+  height:100px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:111px 73px;
+  margin:0;
+}
+#panel-3 {
+	height:180px;
+	width:320px;
+	background-size:160px 168px;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+#panel-4 {
+	width:320px;
+	height:358px;
+}
+#panel-4b {
+  width:320px;
+  height:41px;
+  background-size:92px 41px;
+	background-position:center center;
+	background-repeat:no-repeat;
+  float:left;
+  margin:0;
+}
+#panel-5 {
+	width:160px;
+	margin-top:20px;
+	height:175px;
+}
+#panel-6 {
+	width:160px;
+	margin-top:20px;
+	height:166px;
+}
