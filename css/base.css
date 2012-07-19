@@ -1,0 +1,26 @@
+body{
+	font-family: Georgia,serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#indicators{
+	overflow:hidden;
+}
+#indicators div{
+	height:100px;
+	background-repeat:no-repeat;
+	float:left;
+}
+#mobile-indicator{
+  width:54px;
+  background-image:url(mobile.png);
+}
+#tablet-indicator{
+  width:87px;
+  background-image:url(tablet.png);
+}
+#desktop-indicator{
+  width:106px;
+  background-image:url(desktop.png);
+}

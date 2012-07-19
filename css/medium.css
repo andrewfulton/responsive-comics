@@ -1,0 +1,6 @@
+#mobile-indicator{
+  background-position:left top;
+}
+#tablet-indicator{
+  background-position:left -100px;
+}

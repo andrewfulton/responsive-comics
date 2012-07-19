@@ -1,8 +1,43 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Responsive Comics?</title>
+  
+  <meta name = "viewport" content = "width = device-width" />
+
+  <style type="text/css">
+    
+    @import url(./css/base.css);
+
+    @import url(./css/tiny.css);
+    @import url(./css/medium.css) (min-width:420px);
+    @import url(./css/large.css) (min-width:760px);
+    
+  </style>
+
   </head>
   <body>
-    <h1>Responsive comics?</h1>
+    
+    <div class='page'>
+      <h1>Responsive Comics?</h1>
+      <h2>Responsive design, responsive content</h2>
+      <p>Mobile, tablet, desktop</p>
+      <figure id="indicators">
+      	<div id="mobile-indicator"></div>
+      	<div id="tablet-indicator"></div>
+      	<div id="desktop-indicator"></div>
+      </figure>
+      <h2>Do these work?</h2>
+        <ul>
+          <li><a href="./barf/">Barf</a></li>
+        </ul>
+      <h2>Further reading</h2>
+        <ul>
+        	<li><a href="http://www.hanssprecher.com/responsive-content-revisited.html">Hans Sprecher</a></li>
+        </ul>
+    </div>
+
+
   </body>
+
+
 </html>
